@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 69px;
+}
+
+.header {
+    width: 66%; 
+    display: flex;
+    
+}
+
+
+.header h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.photoLayout {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 24px;
+}
+
+.photoLayout figure:nth-child(1) {
+    grid-column-start: 1; 
+    grid-column-end: span 2;
+    
+}
+
+
+.photoLayout figure:nth-child(5) {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 4;
+}
+
+
+.photoLayout figure:nth-child(6) {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.coffee {
+    width: 623px;
+    height: 200px;
+}
+
+.row1sidePics {
+    width: 300px;
+    height: 200px;
+}
+
+.row2lilPic {
+    width: 300px;
+    height: 200px;
+}
+
+.flowers {
+    width: 300px;
+    height: 425px;
+}
+
+.grass {
+    width: 623px;
+    height: 200px;
+}
+
+.row3Pics {
+    width: 300px;
+    height: 200px;
+}
