@@ -24,8 +24,8 @@ body {
 
 .photoLayout {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 24px;
 }
 
